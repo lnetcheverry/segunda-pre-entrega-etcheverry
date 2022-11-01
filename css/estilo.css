@@ -1,6 +1,7 @@
 /* HEADER */
 
 
+
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -23,10 +24,35 @@ header {
     background-color: black;
 }
 
-.menu {
+.navbar-toggler-icon{
+    background-color: rgb(255, 169, 9);
+    
+}
+.container-fluid {
+    background-color: black;
+}
+.navbar-brand {
+    font-size: 25px;
+    color: rgb(255, 169, 9);
+    background-color: black;
+    padding: 20px;
+    margin-top: 3px color rgb(255, 169, 9) solid;
+
+}
+.nav-link{
+    font-size: 25px;
+    color: rgb(255, 169, 9);
+    background-color: black;
+    padding: 20px;
+    margin-top: 3px color rgb(255, 169, 9) solid;
+}
+
+.menu{
+    background-color: black;
     list-style: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 25px;
+    
 }
 
 li {
@@ -58,7 +84,23 @@ main {
 }
 
 /* IMAGENES */
+.fotoUno{
+    grid-area: fotoUno;
+}
 
+.fotoDos{
+    grid-area: fotoDos;
+}
+
+.fotoTres{
+    grid-area: fotoTres;
+}
+
+.gridPadre{
+    display: grid;
+    grid-template-areas: 
+    "fotoUno fotoDos fotoTres";
+}
 img {
     width: 800px;
     }
