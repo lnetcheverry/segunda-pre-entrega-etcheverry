@@ -84,26 +84,127 @@ main {
 }
 
 /* IMAGENES */
+
+
 .fotoUno{
+
     grid-area: fotoUno;
+    width: 35%;
+    border-radius: 5px;
 }
 
 .fotoDos{
+
     grid-area: fotoDos;
+    width: 35%;
+    border-radius: 5px;
+
 }
 
 .fotoTres{
+   
     grid-area: fotoTres;
+    width: 35%;
+    border-radius: 5px;
+}
+
+.fotoCuatro{
+   
+    grid-area: fotoCuatro;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.fotoCinco{
+   
+    grid-area: fotoCinco;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.fotoSeis{
+   
+    grid-area: fotoSeis;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.fotoSiete{
+    
+    grid-area: fotoSiete;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.fotoOcho{
+    
+    grid-area: fotoOcho;
+    width: 30%;
+    border-radius: 5px;
 }
 
 .gridPadre{
+    background-color: black;
     display: grid;
     grid-template-areas: 
-    "fotoUno fotoDos fotoTres";
+      "fotoUno fotoDos fotoTres fotoCuatro" 
+      "fotoCinco fotoSeis fotoSiete fotoOcho ";
+    width: 100%;
+    height: 60%;
+
 }
-img {
-    width: 800px;
+/* VISTA TABLET */
+@media(min-width:700px) and (max-width:1100px) {
+        .gridPadre {
+            grid-template-areas:
+        "fotoUno fotoDos"
+        "fotoTres fotoCuatro"
+        "fotoCinco fotoSeis"
+        "fotoSiete fotoOcho";
+    } 
+} 
+/* VISTA MOBIL */
+@media(max-width:699px){
+    .gridPadre{
+        grid-template-areas: 
+        "fotoUno"
+        "fotoDos"
+        "fotoTres"
+        "fotoCuatro"
+        "fotoCinco"
+        "fotoSeis"
+        "fotoSiete"
+        "fotoOcho";
+      
     }
+}
+
+/*animacion*/
+
+.fotoUno:hover{
+    width: 100%;
+}
+.fotoDos:hover{
+    width: 100%;
+}
+.fotoTres:hover{
+    width: 100%;
+}
+.fotoCuatro:hover{
+    width: 100%;
+}
+.fotoCinco:hover{
+    width: 100%;
+}
+.fotoSeis:hover{
+    width: 100%;
+}
+.fotoSiete:hover{
+    width: 100%;
+}
+.fotoOcho:hover{
+    width: 100%;
+}
 
 /* FOOTER */
 
