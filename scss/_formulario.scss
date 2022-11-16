@@ -1,0 +1,39 @@
+/* formulario */
+/* form{
+    background-color:$color-fuentes-secundario;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px 40px;
+    width: 450px;
+    margin-top: 45px;
+    text-align: center;
+
+}
+
+.tituloAmarillo{
+    color: $color-fuentes;
+}
+
+textarea{
+    background-color:$color-form;
+    min-width: 500px;
+    max-height: 500px;
+     min-width: 400px;
+     max-width: 400px;
+} */
+
+form {
+    background-color: $color-fuentes-secundario;
+ margin: 10%;
+ width: 50%;
+ height: 70%;
+ justify-content: center;
+flex-direction: column;
+}
+
+.tituloAmarillo {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+
+}

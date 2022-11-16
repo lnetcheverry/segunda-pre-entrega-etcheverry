@@ -120,6 +120,10 @@ ul {
   align-items: flex-end;
   list-style-type: none;
 }
+ul li i {
+  font-size: 4rem;
+  color: #ffbb00;
+}
 ul li a {
   text-decoration: none;
   color: #ffbb00;
@@ -129,9 +133,89 @@ ul li a {
 ul li a:hover {
   color: rgba(248, 149, 1, 0.699);
 }
-ul li a:hover i {
-  font-size: 4rem;
+
+/* formulario */
+/* form{
+    background-color:$color-fuentes-secundario;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px 40px;
+    width: 450px;
+    margin-top: 45px;
+    text-align: center;
+
+}
+
+.tituloAmarillo{
+    color: $color-fuentes;
+}
+
+textarea{
+    background-color:$color-form;
+    min-width: 500px;
+    max-height: 500px;
+     min-width: 400px;
+     max-width: 400px;
+} */
+form {
+  background-color: rgba(248, 149, 1, 0.699);
+  margin: 10%;
+  width: 50%;
+  height: 70%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tituloAmarillo {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* nosotros */
+h1 {
+  color: rgba(248, 149, 1, 0.699);
+  padding: 4rem;
+  font-size: 5.5rem;
+  font-weight: 500;
+}
+
+p {
+  color: rgba(248, 149, 1, 0.699);
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.parRafo {
+  text-align: center;
+}
+
+/* GALERIA */
+.introGaleria {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.introGaleria h2 {
   color: #ffbb00;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.imagenGaleria {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  filter: grayscale(50%);
+}
+.imagenGaleria:hover {
+  transform: scale(1.03);
+  filter: grayscale(0%);
 }
 
 /*# sourceMappingURL=estilo.css.map */
