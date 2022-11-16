@@ -1,0 +1,40 @@
+/* FOOTER */
+
+footer {
+    background-color:$color-fondo;
+    font-size: 4rem;
+    color: $color-fuentes;
+
+  
+  h3 {
+    color: $color-fuentes;
+    text-align: center;
+    font-size: 4rem;
+  }
+}
+@mixin anclas {
+  text-decoration: none;
+  color: $color-fuentes;
+  font-size: 3rem;
+}
+ul {
+  justify-content: center;
+  align-items: flex-end;
+  list-style-type: none;
+
+  li {
+      
+    i {
+      font-size: 4rem;
+      color:$color-botones;
+  }
+      a {
+          @include anclas;
+
+          transition: all 0.3s ease;
+          &:hover {
+              color:$color-fuentes-secundario;
+            }
+      }
+  }
+}

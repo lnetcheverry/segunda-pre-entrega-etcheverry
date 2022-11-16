@@ -1,3 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"); /* estilos generales*/
+html {
+  font-size: 62.5%;
+}
+html body {
+  background-color: #000000;
+  color: #ffbb00;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
 
+/* HEADER */
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffbb00;
+  margin-left: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ffbb00;
+}
+
+header {
+  background-color: #000000;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffbb00;
+}
+
+.container-fluid {
+  background-color: #000000;
+}
+
+.navbar-brand, .nav-link {
+  font-size: 25px;
+  color: #ffbb00;
+  background-color: #000000;
+  padding: 20px;
+  margin-top: 3px solid;
+  color: #ffbb00;
+}
+
+.menu {
+  background-color: #000000;
+  list-style: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+  color: #ffbb00;
+  background-color: #000000;
+  padding: 20px;
+  margin-top: 3px solid;
+  color: #ffbb00;
+}
+
+/*hero*/
+.hero {
+  background-color: #000000;
+  width: 100%;
+  height: calc(100vh - 10rem);
+  position: relative;
+  display: inline-block;
+}
+.hero h1 {
+  display: inline-flex;
+  color: rgba(248, 149, 1, 0.699);
+  padding: 4rem;
+  font-size: 5.5rem;
+  font-weight: 500;
+}
+.hero h2 {
+  margin-bottom: 5px;
+  color: rgba(248, 149, 1, 0.699);
+  font-size: 3.8rem;
+  font-weight: 100;
+}
+.hero p {
+  color: rgba(248, 149, 1, 0.699);
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+ul {
+  justify-content: center;
+  align-items: flex-end;
+  list-style-type: none;
+}
+ul li {
+  text-decoration: none;
+  color: #ffbb00;
+  font-size: 3rem;
+  transition: all 0.3s ease;
+}
+ul li:hover {
+  color: rgba(248, 149, 1, 0.699);
+}
+
+/* FOOTER */
+footer {
+  background-color: #000000;
+  font-size: 4rem;
+  color: #ffbb00;
+}
+footer h3 {
+  color: #ffbb00;
+  text-align: center;
+  font-size: 4rem;
+}
+
+ul {
+  justify-content: center;
+  align-items: flex-end;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #ffbb00;
+  font-size: 3rem;
+  transition: all 0.3s ease;
+}
+ul li a:hover {
+  color: rgba(248, 149, 1, 0.699);
+}
+ul li a:hover i {
+  font-size: 4rem;
+  color: #ffbb00;
+}
 
 /*# sourceMappingURL=estilo.css.map */
